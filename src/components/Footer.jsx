@@ -4,10 +4,16 @@ import Home from "./Home";
 import About from "./About";
 import Dashboard from "./Dashboard";
 
-export default function NavBar() {
+export default function () {
   return (
-    <Router>
-      <div>
+    <>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+        </Routes>
+        <hr />
         <ul>
           <li>
             <Link to="/">Home</Link>
@@ -19,14 +25,7 @@ export default function NavBar() {
             <Link to="/dashboard">Dashboard</Link>
           </li>
         </ul>
-
-        <hr />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/dashboard" element={<Dashboard />} />
-        </Routes>
-      </div>
-    </Router>
+      </Router>
+    </>
   );
 }
