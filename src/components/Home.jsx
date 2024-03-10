@@ -4,9 +4,10 @@ export default function () {
   return (
     <>
       <main>
-        <h2>Home</h2>;
+        <h2>Home</h2>
         <p>
-          <strong>Samuel Tillotson Schroder</strong>
+          Hi! I'm
+          <strong> Samuel Tillotson Schroder</strong>
         </p>
         <img
           src="src\assets\headshot.JPEG"
@@ -14,6 +15,10 @@ export default function () {
           className="img-fluid img-thumbnail"
           style={{ maxWidth: "20%", borderRadius: "5%" }}
         ></img>
+        <p style={{ fontSize: "20px" }}>
+          "We can do it <em>if we work together</em>."
+        </p>
+        <p>Welcome to my portfolio site!</p>
       </main>
     </>
   );
