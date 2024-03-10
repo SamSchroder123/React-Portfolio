@@ -10,7 +10,7 @@ export default function () {
           <strong> Samuel Tillotson Schroder</strong>
         </p>
         <img
-          src="src\assets\headshot.JPEG"
+          src="/src/assets/headshot.JPEG"
           alt="headshot image"
           className="img-fluid img-thumbnail"
           style={{ maxWidth: "20%", borderRadius: "5%" }}
