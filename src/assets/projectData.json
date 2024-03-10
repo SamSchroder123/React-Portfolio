@@ -1,0 +1,28 @@
+{
+  "projects": [
+    {
+      "title": "Password Generator",
+      "imgSrc": "src/assets/password-generator.png",
+      "deployedURL": "https://samschroder123.github.io/Password-Generator/",
+      "gitHubURL": "https://github.com/SamSchroder123/Password-Generator"
+    },
+    {
+      "title": "Daily Planner",
+      "imgSrc": "src/assets/daily-planner.png",
+      "deployedURL": "https://samschroder123.github.io/Daily-Planner/",
+      "gitHubURL": "https://github.com/SamSchroder123/Daily-Planner"
+    },
+    {
+      "title": "JavaScript Quiz",
+      "imgSrc": "src/assets/js-quiz.png",
+      "deployedURL": "https://samschroder123.github.io/JS-Quiz/",
+      "gitHubURL": "https://github.com/SamSchroder123/JS-Quiz/"
+    },
+    {
+      "title": "Console Finances",
+      "imgSrc": "src/assets/console-finances.png",
+      "deployedURL": "https://samschroder123.github.io/Console-Finances/",
+      "gitHubURL": "https://github.com/SamSchroder123/Console-Finances/"
+    }
+  ]
+}
