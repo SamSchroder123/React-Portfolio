@@ -14,25 +14,25 @@
     },
     {
       "title": "JavaScript Quiz",
-      "imgSrc": "./js-quiz.png",
+      "imgSrc": "src/assets/js-quiz.png",
       "deployedURL": "https://samschroder123.github.io/JS-Quiz/",
       "gitHubURL": "https://github.com/SamSchroder123/JS-Quiz/"
     },
     {
       "title": "Console Finances",
-      "imgSrc": "./console-finances.png",
+      "imgSrc": "src/assets/console-finances.png",
       "deployedURL": "https://samschroder123.github.io/Console-Finances/",
       "gitHubURL": "https://github.com/SamSchroder123/Console-Finances/"
     },
     {
       "title": "Placeholder",
-      "imgSrc": "./placeholder.png",
+      "imgSrc": "src/assets/placeholder.png",
       "deployedURL": "",
       "gitHubURL": ""
     },
     {
       "title": "Placeholder",
-      "imgSrc": "./placeholder.png",
+      "imgSrc": "src/assets/placeholder.png",
       "deployedURL": "",
       "gitHubURL": ""
     }
