@@ -1,4 +1,5 @@
 import React from "react";
+import img from "../assets/headshot.PNG";
 
 export default function () {
   return (
@@ -10,7 +11,7 @@ export default function () {
           <strong> Samuel Tillotson Schroder</strong>
         </p>
         <img
-          src="../assets/headshot.JPEG"
+          src={img}
           alt="headshot image"
           className="img-fluid img-thumbnail"
           style={{ maxWidth: "20%", borderRadius: "5%" }}
