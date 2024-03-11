@@ -1,19 +1,23 @@
 import React from "react";
 import Project from "./Project";
 import projectData from "../assets/projectData.json";
+const images = [];
+projectData.projects.forEach((element) => {
+  images.push(element.imgSrc);
+});
 
 export default function () {
   const projectsToAdd = [];
-  projectData.projects.forEach((element) => {
+  for (let i = 0; i < projectData.projects.length; i++) {
     projectsToAdd.push(
       <Project
-        title={element.title}
-        imgSrc={element.imgSrc}
-        deployedURL={element.deployedURL}
-        gitHubURL={element.gitHubURL}
+        title={projectData.projects[i].title}
+        imgSrc={images[i]}
+        deployedURL={projectData.projects[i].deployedURL}
+        gitHubURL={projectData.projects[i].gitHubURL}
       ></Project>
     );
-  });
+  }
   return (
     <>
       <div className="d-flex" style={{ flexWrap: "wrap" }}>
