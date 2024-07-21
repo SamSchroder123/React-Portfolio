@@ -2,7 +2,7 @@
   "projects": [
     {
       "title": "Password Generator",
-      "imgSrc": "public/password-generator.png",
+      "imgSrc": "../../public/password-generator.png",
       "deployedURL": "https://samschroder123.github.io/Password-Generator/",
       "gitHubURL": "https://github.com/SamSchroder123/Password-Generator"
     },
