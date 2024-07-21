@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../assets/headshot.png";
+import img from "../assets/professional-headshot.jpeg";
 
 export default function () {
   return (
@@ -12,9 +12,9 @@ export default function () {
         </p>
         <img
           src={img}
-          alt="headshot image"
+          alt="professional profile image"
           className="img-fluid img-thumbnail"
-          style={{ maxWidth: "20%", borderRadius: "5%" }}
+          style={{ maxWidth: "20%", borderRadius: "45%" }}
         ></img>
         <p style={{ fontSize: "20px" }}>
           "We can do it <em>if we work together</em>."
