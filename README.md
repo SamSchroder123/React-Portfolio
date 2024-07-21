@@ -17,7 +17,7 @@
   ## Description
   A portfolio page to host my projects and information about me
   ## Installation
-  follow the link to the deployed website
+  follow the link to the [deployed website](https://samtschroder-portfolio.netlify.app/)
   ## Usage
   use as normal
   ## Licence
