@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function ({ title, imgSrc, deployedURL, gitHubURL }) {
-  import IMG from "${imgSrc}"
+  import img from "${imgSrc}"
   return (
     <>
       <div className="project">
@@ -12,7 +12,7 @@ export default function ({ title, imgSrc, deployedURL, gitHubURL }) {
         <a href={gitHubURL} target="_blank" rel="noopener noreferrer">
           GitHub Link
         </a>
-        <img src={IMG} alt={title} />
+        <img src={img} alt={title} />
       </div>
     </>
   );
