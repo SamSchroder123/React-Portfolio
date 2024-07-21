@@ -14,7 +14,7 @@ export default function () {
           src={img}
           alt="professional profile image"
           className="img-fluid img-thumbnail"
-          style={{ maxWidth: "20%", borderRadius: "45%" }}
+          style={{ maxWidth: "20%", borderRadius: "50%" }}
         ></img>
         <p style={{ fontSize: "20px" }}>
           "We can do it <em>if we work together</em>."
